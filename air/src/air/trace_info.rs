@@ -142,7 +142,7 @@ impl TraceInfo {
 /// Layout of columns within an execution trace.
 ///
 /// A layout describes how columns of a trace are arranged into segments. All execution traces must
-/// have a non zero main segment, and may have additional auxiliary trace segments. Currently, the
+/// have a non-zero main segment, and may have additional auxiliary trace segments. Currently, the
 /// number of auxiliary trace segments is limited to one.
 ///
 /// Additionally, a layout contains information on how many random elements are required to build a
